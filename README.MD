@@ -20,9 +20,9 @@ $ laravel fresh laravel-app
 $ cd laravel-app
 ```
 
-3. Install Quasar
+3. Install Quasar v1
 ```bash2
-$ quasar create admin
+$ quasar create admin -b dev
 ```
 
 4. Configure quasar. Add following lines to your `/admin/quasar.conf.js` file:
@@ -38,7 +38,7 @@ $ quasar create admin
 /public/admin
 ```
 
-6. Remove following line to your `/admin/.gitignore` file
+6. Remove following line from your `/admin/.gitignore` and `/admin/.eslintignore` files
 ```
 /dist
 ```
