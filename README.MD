@@ -12,7 +12,7 @@
 
 1. Create fresh laravel
 ```bash2
-$ laravel fresh laravel-app
+$ laravel new laravel-app
 ```
 
 2. Change directory to laravel folder
